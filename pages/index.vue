@@ -4,5 +4,6 @@
       <SectionsHero/>
       <SectionsSectionOne/>
       <SectionsSectionTwo/>
+      <SectionsOrderNowSection/>
     </div>
 </template>
