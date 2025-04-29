@@ -12,10 +12,8 @@ module.exports = {
     ],
     theme: {
         colors: ({ colors }) => ({
-            primary: '#42A5F5',
-            secondary: '#FFD100',
-            gray: '#EEEEEE',
-            light: '#B3DBFB',
+            primary: '#12170F',
+            secondary: '#5F2C85',
             inherit: colors.inherit,
             current: colors.current,
             transparent: colors.transparent,
