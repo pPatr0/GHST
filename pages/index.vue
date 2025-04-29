@@ -5,5 +5,6 @@
       <SectionsSectionOne/>
       <SectionsSectionTwo/>
       <SectionsOrderNowSection/>
+      <SectionsFooter/>
     </div>
 </template>
