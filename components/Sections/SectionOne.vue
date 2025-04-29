@@ -7,7 +7,7 @@
     >
       <div class="max-w-[1460px] mx-auto w-full">
         <div class="text-center">
-          <h2 class="text-4xl font-bold text-white lg:text-5xl unbounded">
+          <h2 class="font-sans text-4xl font-bold text-white lg:text-5xl">
             Co můžete očekávat
           </h2>
         </div>
@@ -16,7 +16,7 @@
           <div
             v-for="(item, index) in features"
             :key="index"
-            class="w-full max-w-xs space-y-3 lg:max-w-md"
+            class="w-full h-full max-w-xs space-y-3 lg:max-w-md"
           >
             <div class="flex justify-between">
               <h3 class="text-lg font-bold text-white lg:text-2xl unbounded">{{ item.title }}</h3>
@@ -29,7 +29,7 @@
                   stroke-linejoin="round" />
               </svg>
             </div>
-            <p class="text-sm text-white space" :class="item.maxWidth">
+            <p class="font-serif text-sm text-white lg:text-base" :class="item.maxWidth">
               {{ item.text }}
             </p>
           </div>
@@ -53,7 +53,7 @@ const features = [
   {
     title: 'Žádná minimální objednávka',
     text: 'Objednej přesně tolik, kolik potřebuješ – bez limitů a zbytečného skladu navíc.',
-    maxWidth: 'lg:max-w-[16.7rem] max-w-[16rem]',
+    maxWidth: 'lg:max-w-[19rem] max-w-[16rem]',
   },
   {
     title: 'Všechno na jednom místě',
@@ -68,7 +68,7 @@ const features = [
   {
     title: 'Podpora na každém kroku',
     text: 'Jsme tu pro tebe – od prvního nápadu až po konečný produkt.',
-    maxWidth: 'lg:max-w-[16.7rem] max-w-[16rem]',
+    maxWidth: 'lg:max-w-[25rem] max-w-[16rem]',
   },
 ]
 </script>
