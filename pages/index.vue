@@ -3,5 +3,6 @@
       <SectionsNavbar/>
       <SectionsHero/>
       <SectionsSectionOne/>
+      <SectionsSectionTwo/>
     </div>
 </template>
