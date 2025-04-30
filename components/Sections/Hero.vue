@@ -19,7 +19,7 @@
         </div>
   
         <!-- Second section (kytky + tričko) -->
-        <div class="flex justify-center w-full pt-4 lg:w-1/2 lg:pt-0 md:pt-0">
+        <div class="flex justify-center w-full pt-10 lg:w-1/2 lg:pt-0 md:pt-0">
             <div class="relative flex justify-center items-center w-full sm:h-[16rem] md:h-[30rem] lg:h-[39rem] overflow-visible">
                 <div class="absolute inset-0 bg-[url('/img/kytky.svg')] bg-center bg-no-repeat bg-contain pointer-events-none"></div>
                 <img src="/img/tricko.png" alt="tricko" class="z-10 w-[220px] md:w-[275px] lg:w-[300px] xl:w-[400px] mx-auto xl:ml-60 lg:ml-48 md:ml-56 ml-10 lg:mt-8">
