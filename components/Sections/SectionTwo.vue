@@ -1,7 +1,7 @@
 <template>
-  <div class="max-w-[300px] md:max-w-[700px] lg:max-w-[1500px] mx-auto py-20">
+  <div class="max-w-[300px] md:max-w-[700px] lg:max-w-[1500px] mx-auto lg:py-20 py-12">
     <div>
-      <h2 class="pb-20 text-4xl font-bold text-center text-primary lg:text-5xl unbounded lg:text-left">
+      <h2 class="pb-10 text-4xl font-bold text-center lg:pb-20 md:pb-16 text-primary lg:text-5xl unbounded lg:text-left">
         Vytvoříme pro Vás
       </h2>
     </div>

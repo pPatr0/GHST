@@ -1,5 +1,5 @@
 <template>
-    <div class="pb-12">
+    <div class="">
         <div class="text-white bg-primary">
             sa
         </div>
