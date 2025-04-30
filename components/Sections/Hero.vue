@@ -1,21 +1,22 @@
 <template>
     <div class="lg:max-w-[1460px] md:max-w-[700px] max-w-[300px] mx-auto lg:pb-20 md:pb-20 pb-12 lg:pt-20 md:pt-20 pt-12">
       <div class="flex flex-col items-center justify-between px-0 lg:px-4 lg:flex-row">
-        <div class="w-full pb-0 lg:w-1/2 lg:pb-16">
-          <h1 class="xl:text-[62px] lg:text-[40px] text-3xl xl:leading-[5rem] lg:leading-[4rem] leading-[2.5rem] unbounded font-bold text-primary xl:max-w-2xl lg:max-w-md max-w-[16rem]">
+        <div class="flex flex-col items-center w-full pb-0 lg:items-start lg:w-1/2 lg:pb-16">
+          <h1 class="xl:text-[62px] lg:text-[40px] text-2xl xl:leading-[5rem] lg:leading-[4rem] leading-[2.5rem] unbounded font-bold text-primary xl:max-w-2xl lg:max-w-md md:max-w-lg max-w-md lg:text-left md:text-center text-left">
             Oblečení, které vás reprezentuje
           </h1>
-          <p class="lg:text-2xl text-base lg:max-w-xl md:max-w-sm font-serif lg:py-7 py-4 lg:leading-[2.4rem] leading-[1.5rem]">
+          <p class="lg:text-2xl text-base lg:max-w-xl md:max-w-sm font-serif lg:py-7 py-4 lg:leading-[2.4rem] leading-[1.5rem] lg:text-left md:text-center text-left">
             Tvoříme na zakázku pro firmy, které dbají na styl, kvalitu a odlišení se od konkurence
           </p>
-          <div class="flex lg:flex-row flex-col lg:gap-5 gap-2 unbounded font-bold lg:text-base text-xs lg:w-full w-[14rem]">
-            <button class="px-8 py-3 text-white bg-secondary rounded-tr-2xl rounded-bl-2xl">
-              Objednejte nyní
-            </button>
-            <button class="px-8 py-3 border-2 border-primary rounded-tl-2xl rounded-br-2xl text-primary">
-              Zjistěte něco o nás
-            </button>
-          </div>
+          <div class="flex flex-col w-full gap-2 text-xs font-bold lg:flex-row lg:gap-5 unbounded lg:text-base lg:w-full">
+  <button class="w-full px-8 py-3 text-white bg-secondary rounded-tr-2xl rounded-bl-2xl lg:w-auto">
+    Objednejte nyní
+  </button>
+  <button class="w-full px-8 py-3 border-2 border-primary rounded-tl-2xl rounded-br-2xl text-primary lg:w-auto">
+    Zjistěte něco o nás
+  </button>
+</div>
+
         </div>
   
         <!-- Second section (kytky + tričko) -->
