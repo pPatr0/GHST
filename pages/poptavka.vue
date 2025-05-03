@@ -1,3 +1,4 @@
 <template>
-    SS
+    <SectionsNavbar/>
+    <PoptavkaTitlePoptavka/>
 </template>
