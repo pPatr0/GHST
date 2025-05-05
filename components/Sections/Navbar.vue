@@ -5,16 +5,16 @@
         </div>
         <div class="py-6 border-b-4 border-primary">
             <div class="max-w-[1700px] mx-auto">
-                <div class="flex items-center justify-between">
+                <div class="items-center justify-between hidden lg:flex md:flex">
                     <div class="font-sans text-4xl font-bold">
-                    ghst
+                    <NuxtLink to="/">GHST</NuxtLink>
                     </div>
                     <div class="space-x-8">
-                        <NuxtLin to="">Reference</NuxtLin>
+                        <NuxtLink to="">Reference</NuxtLink>
                         <NuxtLink>Katalog</NuxtLink>
                         <NuxtLink to="/poptavka">Poptávka</NuxtLink>
                         <NuxtLink>O nás</NuxtLink>
-                        <NuxtLink>Kontakt</NuxtLink>
+                        <NuxtLink>Kontakt</NuxtLink> 
                     </div>
                     <div>
                         skibidi
