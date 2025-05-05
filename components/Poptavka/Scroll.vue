@@ -10,13 +10,13 @@
         </div>
   
         <!-- pravý sloupec s kroky -->
-        <div class="flex flex-col justify-between pt-0 space-y-10 xl:pt-20 lg:pt-16 md:pt-16 lg:space-y-0 md:space-y-0">
+        <div class="flex flex-col justify-between pt-0 space-y-10 xl:pt-20 lg:pt-16 md:pt-16 lg:space-y-0 md:space-y-0 text-primary">
           <div
             v-for="(step, index) in steps"
             :key="index"
             class="flex flex-col xl:max-w-3xl lg:max-w-xl md:max-w-lg"
           >
-            <h2 class="xl:text-5xl lg:text-4xl md:text-3xl text-xl font-bold lg:leading-[4rem] md:leading-[3rem] xl:pb-8 lg:pb-4 md:pb-4 pb-2">
+            <h2 class="xl:text-5xl lg:text-4xl md:text-3xl text-xl font-bold xl:leading-[4rem] lg:leading-[4rem] md:leading-[3rem] xl:pb-8 lg:pb-4 md:pb-4 pb-2">
               {{ (index + 1).toString().padStart(2, '0') }}<br>
               {{ step.title }}
             </h2>
