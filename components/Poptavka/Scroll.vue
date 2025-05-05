@@ -1,5 +1,5 @@
 <template>
-    <div class="mx-auto lg:max-w-[1142px] md:max-w-[1142px] max-w-[380px] lg:-mt-20 md:-mt-20 -mt-10">
+    <div class="mx-auto lg:max-w-[1142px] md:max-w-[1142px] max-w-xs lg:-mt-20 md:-mt-20 -mt-10">
       <div class="flex justify-center space-x-0 xl:space-x-40 lg:space-x-16 md:space-x-8">
         <!-- levý sloupec s květinou a čárou -->
         <div class="relative flex-col items-center hidden lg:flex md:flex">
