@@ -6,7 +6,7 @@
                     <div class="flex justify-center">
                         <img src="/img/about/kytkyLevaTwo.svg" alt="leveKytky" class="w-3/4 lg:w-3/4 md:w-3/4 xl:w-full">
                     </div>
-                    <div class="flex justify-center w-full">
+                    <div class="flex justify-center w-full min-w-[90px]">
                         <h1 class="font-sans text-2xl font-bold text-white lg:text-7xl md:text-4xl">
                             O nás
                         </h1>
