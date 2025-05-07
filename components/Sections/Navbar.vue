@@ -13,7 +13,7 @@
                         <NuxtLink to="">Reference</NuxtLink>
                         <NuxtLink>Katalog</NuxtLink>
                         <NuxtLink to="/poptavka">Poptávka</NuxtLink>
-                        <NuxtLink>O nás</NuxtLink>
+                        <NuxtLink to="/about">O nás</NuxtLink>
                         <NuxtLink>Kontakt</NuxtLink> 
                     </div>
                     <div>

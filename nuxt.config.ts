@@ -14,7 +14,5 @@ export default defineNuxtConfig({
         }
       }
     }
-  ]]
+  ], 'v-gsap-nuxt']
 })
-
-
