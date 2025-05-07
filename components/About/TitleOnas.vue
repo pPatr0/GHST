@@ -2,9 +2,9 @@
     <div>
         <div class="bg-secondary lg:h-[640px] md:h-[580px] h-[300px] flex items-center lg:rounded-bl-[250px] md:rounded-bl-[175px] sm:rounded-bl-[150px] rounded-bl-[100px]">
             <div class="lg:max-w-[1460px] mx-auto">
-                <div class="flex items-center justify-between">
+                <div class="flex items-center justify-between px-0 xl:px-2">
                     <div class="flex justify-center">
-                        <img src="/img/kytkyLeva.svg" alt="leveKytky" class="w-3/4 lg:w-3/4 md:w-3/4">
+                        <img src="/img/about/kytkyLevaTwo.svg" alt="leveKytky" class="w-3/4 lg:w-3/4 md:w-3/4 xl:w-full">
                     </div>
                     <div class="flex justify-center w-full">
                         <h1 class="font-sans text-2xl font-bold text-white lg:text-7xl md:text-4xl">
@@ -12,7 +12,7 @@
                         </h1>
                     </div>
                     <div class="flex justify-center">
-                        <img src="/img/kytkyPrava.svg" alt="praveKytky" class="w-3/4 lg:w-3/4 md:w-3/4">
+                        <img src="/img/about/kytkyPravaTwo.svg" alt="praveKytky" class="w-3/4 lg:w-3/4 md:w-3/4 xl:w-full">
                     </div>
                 </div>
             </div>
