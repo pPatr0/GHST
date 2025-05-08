@@ -9,8 +9,16 @@
                     Jak začít?
                 </h2>
                 <p class="max-w-md pt-4 pb-4 font-serif text-base lg:pt-12 md:pt-8 lg:max-w-xl lg:text-xl md:text-md lg:pb-0 md:pb-0">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas velit urna, consequat iaculis dui sagittis vel. Curabitur semper turpis a ante suscipit, in lobortis orci mollis. Maecenas quis quam nec elit porta fermentum quis a odio. Suspendisse ultricies lacus et rutrum dignissim. Aliquam quis rutrum lacus, in luctus leo. Curabitur non dui arcu. Cras id fringilla neque. Nullam leo nunc, mollis et libero quis, vulputate rutrum dolor. Sed ut libero nec ipsum blandit ultrices non id purus. Proin hendrerit mi libero, condimentum luctus ante vulputate sit amet. Suspendisse potenti. Aenean sit amet lobortis sapien.
+                    Stačí nás kontaktovat a o zbytek už se postaráme. Nabízíme spolehlivý servis od vytvoření jedinečného designu až po doručení hotových produktů na Vaši adresu.<br><br>Začít můžete ted’ hned! Zjistite jak probíhá spolupráce nebo nás kontaktujte.                
                 </p>
+                <div class="flex flex-col w-full gap-2 pt-20 text-xs font-bold lg:flex-row lg:gap-5 unbounded lg:text-base lg:w-full">
+                    <button class="w-full px-8 py-3 text-white bg-secondary rounded-tr-2xl rounded-bl-2xl lg:w-auto">
+                        Objednejte nyní
+                    </button>
+                    <button class="w-full px-8 py-3 border-2 border-primary rounded-tl-2xl rounded-br-2xl text-primary lg:w-auto">
+                        Zjistěte něco o nás
+                    </button>
+                </div>
             </div>
         </div>
     </div>

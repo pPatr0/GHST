@@ -9,13 +9,13 @@
             Tvoříme na zakázku pro firmy, které dbají na styl, kvalitu a odlišení se od konkurence
           </p>
           <div class="flex flex-col w-full gap-2 text-xs font-bold lg:flex-row lg:gap-5 unbounded lg:text-base lg:w-full">
-  <button class="w-full px-8 py-3 text-white bg-secondary rounded-tr-2xl rounded-bl-2xl lg:w-auto">
-    Objednejte nyní
-  </button>
-  <button class="w-full px-8 py-3 border-2 border-primary rounded-tl-2xl rounded-br-2xl text-primary lg:w-auto">
-    Zjistěte něco o nás
-  </button>
-</div>
+            <button class="w-full px-8 py-3 text-white bg-secondary rounded-tr-2xl rounded-bl-2xl lg:w-auto">
+              Objednejte nyní
+            </button>
+            <button class="w-full px-8 py-3 border-2 border-primary rounded-tl-2xl rounded-br-2xl text-primary lg:w-auto">
+              Zjistěte něco o nás
+            </button>
+          </div>
 
         </div>
   
