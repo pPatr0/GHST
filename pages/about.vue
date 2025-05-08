@@ -3,5 +3,7 @@
     <AboutTitleOnas/>
     <AboutKdoJsme/>
     <AboutCoNabizime/>
+    <AboutProcVybrat/>
+    <AboutJakZacit/>
     <SectionsFooter/>
 </template>
