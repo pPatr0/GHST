@@ -3,8 +3,8 @@
       <div class="flex justify-center space-x-0 xl:space-x-40 lg:space-x-16 md:space-x-8">
         <!-- levý sloupec s květinou a čárou -->
         <div class="relative flex-col items-center hidden lg:flex md:flex">
-          <img src="/img/movingFlower.svg" alt="movingFlower" class="z-10 xl:h-[213px] w-auto lg:h-[165px] md:h-[115px] sticky top-80 ml-[0.04rem]">
-          <img src="/img/lineUnderFlower.svg" alt="lineUnderFlower" class="-mt-2 xl:h-[1942px] lg:h-[1720px] md:h-[1220px]">
+          <img src="/img/enquiry/movingFlower.svg" alt="MovingFlower" class="z-10 xl:h-[213px] w-auto lg:h-[165px] md:h-[115px] sticky top-80 ml-[0.049rem]">
+          <img src="/img/enquiry/lineUnderFlower.svg" alt="LineUnderFlower" class="-mt-2 xl:h-[1942px] lg:h-[1720px] md:h-[1220px]">
         </div>
   
         <!-- pravý sloupec s kroky -->

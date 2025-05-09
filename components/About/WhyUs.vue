@@ -10,7 +10,7 @@
                 </p>
             </div>
             <div class="lg:rounded-t-[10rem] rounded-t-[4rem] lg:rounded-br-[10rem] rounded-br-[4rem] border-2 border-primary lg:max-w-[600px] lg:h-[500px] md:max-w-[400px] md:h-[350px] w-ful h-auto lg:m-4 md:m-4 m-1">
-                <img src="/img/toteBag.png" alt="" class="lg:rounded-t-[10rem] rounded-t-[4rem] lg:rounded-br-[10rem] rounded-br-[4rem] object-cover w-full h-full">
+                <img src="/img/toteBag.png" alt="ToteBag" class="lg:rounded-t-[10rem] rounded-t-[4rem] lg:rounded-br-[10rem] rounded-br-[4rem] object-cover w-full h-full">
             </div>
         </div>
     </div>

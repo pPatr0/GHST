@@ -1,9 +1,9 @@
 <template>
     <SectionsNavbar/>
-    <AboutTitleOnas/>
-    <AboutKdoJsme/>
-    <AboutCoNabizime/>
-    <AboutProcVybrat/>
-    <AboutJakZacit/>
+    <AboutTitleAbout/>
+    <AboutWhoWeAre/>
+    <AboutOffer/>
+    <AboutWhyUs/>
+    <AboutHowStart/>
     <SectionsFooter/>
 </template>

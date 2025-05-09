@@ -1,18 +1,18 @@
 <template>
     <div>
-        <div class="bg-secondary lg:h-[640px] md:h-[580px] h-[300px] flex items-center lg:rounded-bl-[250px] md:rounded-bl-[175px] sm:rounded-bl-[150px] rounded-bl-[100px]">
+        <div class="bg-rose lg:h-[640px] md:h-[580px] h-[300px] flex items-center lg:rounded-bl-[250px] md:rounded-bl-[175px] sm:rounded-bl-[150px] rounded-bl-[100px]">
             <div class="lg:max-w-[1460px] mx-auto">
-                <div class="flex items-center justify-between px-0 xl:px-2">
+                <div class="flex items-center justify-between">
                     <div class="flex justify-center">
-                        <img src="/img/about/kytkyLevaTwo.svg" alt="leveKytky" class="w-3/4 lg:w-3/4 md:w-3/4 xl:w-full">
+                        <img src="/img/enquiry/flowerLeftEnquiry.svg" alt="FlowersLeftSide" class="w-3/4 lg:w-3/4 md:w-3/4">
                     </div>
-                    <div class="flex justify-center w-full min-w-[90px]">
+                    <div class="flex justify-center w-full">
                         <h1 class="font-sans text-2xl font-bold text-white lg:text-7xl md:text-4xl">
-                            O nás
+                            Poptávka
                         </h1>
                     </div>
                     <div class="flex justify-center">
-                        <img src="/img/about/kytkyPravaTwo.svg" alt="praveKytky" class="w-3/4 lg:w-3/4 md:w-3/4 xl:w-full">
+                        <img src="/img/enquiry/flowerRightEnquiry.svg" alt="FlowersRightSide" class="w-3/4 lg:w-3/4 md:w-3/4">
                     </div>
                 </div>
             </div>
@@ -24,7 +24,7 @@
                 preserveAspectRatio="xMaxYMax meet"
                 xmlns="http://www.w3.org/2000/svg"
             >
-                <path d="M250 250C250 111.929 138.071 0 0 0H250V250Z" fill="#5F2C85" />
+                <path d="M250 250C250 111.929 138.071 0 0 0H250V250Z" fill="#B796FF" />
             </svg>
         </div>
     </div>
