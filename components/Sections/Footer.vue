@@ -31,18 +31,24 @@
                     Menu
                 </h3>
                 <div class="space-y-2 font-serif">
-                    <p>E-shop</p>
+                    <p>Reference</p>
+                    <p>Poptávka</p>
                     <p>O nás</p>
-                    <p>Kolekce</p>
+                    <p>Kontakt</p>
                 </div>
             </div>
             <div class="space-y-2">
                 <h3 class="text-lg font-bold unbounded">
                     Potřebujete pomoct?
                 </h3>
-                <p class="font-serif">
-                    Kontaktujte nás
-                </p>
+                <div class="space-y-2 font-serif">
+                    <p>
+                    +420 123 123 123
+                    </p>
+                    <p>
+                        obchod@ghst.cz
+                    </p>
+                </div>
             </div>
             <div class="space-y-2">
                 <h3 class="text-lg font-bold unbounded">
