@@ -5,17 +5,18 @@
           <h1 class="xl:text-[62px] lg:text-[40px] text-2xl xl:leading-[5rem] lg:leading-[4rem] leading-[2.5rem] unbounded font-bold text-primary xl:max-w-2xl lg:max-w-md md:max-w-lg max-w-md lg:text-left md:text-center text-left">
             Oblečení, které vás reprezentuje
           </h1>
-          <p class="lg:text-2xl text-base lg:max-w-xl md:max-w-sm font-serif lg:py-7 py-4 lg:leading-[2.4rem] leading-[1.5rem] lg:text-left md:text-center text-left">
+          <p class="lg:text-2xl text-base lg:max-w-xl md:max-w-sm font-serif lg:py-7 py-2 lg:leading-[2.4rem] leading-[1.5rem] lg:text-left md:text-center text-left">
             Tvoříme na zakázku pro firmy, které dbají na styl, kvalitu a odlišení se od konkurence
           </p>
-          <div class="flex flex-col w-full gap-2 text-xs font-bold lg:flex-row lg:gap-5 unbounded lg:text-base lg:w-full">
-            <button class="w-full px-8 py-3 text-white bg-secondary rounded-tr-2xl rounded-bl-2xl lg:w-auto">
+          <div class="flex flex-col w-full gap-2 text-xs font-bold lg:flex-row lg:gap-5 unbounded lg:text-base lg:max-w-xl md:max-w-md">
+            <button class="w-full px-8 py-3 text-white transition-all ease-in-out border-2 duration-400 bg-secondary border-secondary rounded-tr-2xl rounded-bl-2xl lg:w-auto hover:bg-transparent hover:text-secondary">
               Objednejte nyní
             </button>
-            <button class="w-full px-8 py-3 border-2 border-primary rounded-tl-2xl rounded-br-2xl text-primary lg:w-auto">
+            <button class="w-full px-8 py-3 transition-all ease-in-out border-2 duration-400 border-primary rounded-tl-2xl rounded-br-2xl text-primary lg:w-auto hover:bg-primary hover:text-white">
               Zjistěte něco o nás
             </button>
           </div>
+
 
         </div>
   
