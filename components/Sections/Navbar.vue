@@ -10,8 +10,7 @@
                     <NuxtLink to="/">GHST</NuxtLink>
                     </div>
                     <div class="space-x-8">
-                        <NuxtLink to="">Reference</NuxtLink>
-                        <NuxtLink>Katalog</NuxtLink>
+                        <NuxtLink to="/reference">Reference</NuxtLink>
                         <NuxtLink to="/enquiry">Poptávka</NuxtLink>
                         <NuxtLink to="/about">O nás</NuxtLink>
                         <NuxtLink to="/contact">Kontakt</NuxtLink> 
