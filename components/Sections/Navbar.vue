@@ -14,7 +14,7 @@
                         <NuxtLink>Katalog</NuxtLink>
                         <NuxtLink to="/enquiry">Poptávka</NuxtLink>
                         <NuxtLink to="/about">O nás</NuxtLink>
-                        <NuxtLink>Kontakt</NuxtLink> 
+                        <NuxtLink to="/contact">Kontakt</NuxtLink> 
                     </div>
                     <div>
                         skibidi
