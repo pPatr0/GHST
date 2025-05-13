@@ -48,8 +48,8 @@
                     <!-- Tlačítko -->
                     <div class="text-center">
                         <button type="submit"
-                                class="px-6 py-3 font-semibold text-white lg:px-8 md:px-8 lg:py-4 md:py-4 rounded-tr-2xl rounded-bl-2xl bg-secondary">
-                        Odeslat
+                                class="md:w-[300px] w-full px-8 py-3 text-white transition-all ease-in-out border-2 duration-400 bg-secondary border-secondary rounded-tr-2xl rounded-bl-2xl lg:w-auto hover:bg-transparent hover:text-secondary">
+                        Odeslat Zprávu
                         </button>
                     </div>
                 </form>
@@ -57,3 +57,4 @@
         </div>
     </div>
 </template>
+

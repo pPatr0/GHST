@@ -13,7 +13,7 @@
                 </p>
                 <div class="flex flex-col w-full gap-2 pt-20 text-xs font-bold lg:flex-row lg:gap-5 unbounded lg:text-base lg:w-full">
                     <button class="w-full px-8 py-3 text-white transition-all ease-in-out border-2 bg-secondary border-secondary rounded-tr-2xl rounded-bl-2xl lg:w-auto hover:bg-transparent hover:text-secondary">
-                        <NuxtLink to="/enquiry">Objednejte nyní</NuxtLink>
+                        <NuxtLink to="/enquiry">Na Poptávku</NuxtLink>
                     </button>
                     <button class="w-full px-8 py-3 transition-all ease-in-out border-2 border-primary rounded-tl-2xl rounded-br-2xl text-primary lg:w-auto hover:bg-primary hover:text-white">
                         <NuxtLink to="/about">Zjistěte něco o nás</NuxtLink>
