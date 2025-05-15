@@ -12,7 +12,9 @@
                 >
                 <img :src="item.image" alt="toteBag" class="object-cover w-full h-full" :class="[item.cardFlip]"/>
                 <div class="absolute p-4 text-base font-semibold text-center lg:text-xl md:text-xl" :class="[item.cornerTitle, item.cardFlip]">
-                    {{ item.title }}
+                    <a href="referenceIndividual">
+                      {{ item.title }}
+                    </a>
                 </div>
                 </div>
             </div>
