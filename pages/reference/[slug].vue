@@ -7,27 +7,25 @@
                 class="border-primary border-2 overflow-hidden lg:w-1/2 w-full xl:h-[720px] lg:h-[640px]
                 md:h-[400px] h-[240px] lg:rounded-tl-[10rem] md:rounded-tl-[6rem] rounded-tl-[3rem] lg:rounded-br-[10rem] md:rounded-br-[6rem] rounded-br-[3rem]"
                 >
-                <img src="/img/toteBag.png" alt="toteBag" class="object-cover w-full h-full">
+                <img :src="data.images.image1" alt="toteBag" class="object-cover w-full h-full">
             </div>
             <div class="flex flex-col justify-between w-full space-y-6 lg:w-1/2 lg:space-y-0">
                 <div>
                     <h2 class="pt-6 font-sans text-3xl font-bold text-left lg:pt-0 lg:text-4xl text-primary xl:text-5xl">
-                    Město Karolinka
+                    {{data.title}}
                     </h2>
                 </div>
                 <div>
-                    <p class="font-serif text-sm text-primary lg:text-base md:text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum tortor eget pretium auctor. Duis eu neque vitae mauris pulvinar laoreet sed a nisi. Phasellus bibendum quis lacus ac lobortis. Suspendisse potenti. Praesent sollicitudin, velit sit amet malesuada tempus, arcu elit sodales magna, eu commodo felis eros vitae nisi. Nullam id elit ac lectus pretium maximus. Curabitur at volutpat eros, sed bibendum lacus. 
-                        <br><br>
-                        Pellentesque varius odio a quam lobortis elementum. Fusce posuere mi ut metus sollicitudin ullamcorper. Duis eget purus eget massa molestie malesuada sit amet vel dui. Quisque commodo ex et ultrices vestibulum. Nullam eget est eu ligula aliquet finibus. Morbi ac ullamcorper sapien, id sagittis mauris.
+                    <p class="font-serif text-sm text-primary lg:text-base md:text-base" v-html="data.description.replace(/\n/g, '<br><br>')">
+                       
                     </p>
                 </div>
-                <div class="flex pt-0 space-x-4 lg:space-x-6 lg:pt-0">
-                    <div class=" border-primary border-2 overflow-hidden w-auto xl:h-[348px] lg:h-[288px]  md:h-[300px] h-[150px] lg:rounded-tr-[7rem] md:rounded-tr-[6rem] rounded-tr-[3rem] lg:rounded-bl-[7rem] md:rounded-bl-[6rem] rounded-bl-[3rem]">
-                        <img src="/img/toteBag.png" alt="toteBag" class="object-cover w-full h-full">
+                <div class="flex w-full pt-0 space-x-4 lg:space-x-6 lg:pt-0">
+                    <div class=" border-primary border-2 overflow-hidden w-full xl:h-[348px] lg:h-[288px]  md:h-[300px] h-[150px] lg:rounded-tr-[7rem] md:rounded-tr-[6rem] rounded-tr-[3rem] lg:rounded-bl-[7rem] md:rounded-bl-[6rem] rounded-bl-[3rem]">
+                        <img :src="data.images.image2" alt="toteBag" class="object-cover w-full h-full">
                     </div>
-                    <div class="relative border-primary border-2 overflow-hidden w-auto xl:h-[348px] lg:h-[288px]  md:h-[300px] h-[150px] lg:rounded-tl-[7rem] md:rounded-tl-[6rem] rounded-tl-[3rem] lg:rounded-br-[7rem] md:rounded-br-[6rem] rounded-br-[3rem]" >
-                        <img src="/img/toteBag.png" alt="toteBag" class="object-cover w-full h-full">
+                    <div class="relative border-primary border-2 overflow-hidden w-full xl:h-[348px] lg:h-[288px]  md:h-[300px] h-[150px] lg:rounded-tl-[7rem] md:rounded-tl-[6rem] rounded-tl-[3rem] lg:rounded-br-[7rem] md:rounded-br-[6rem] rounded-br-[3rem]" >
+                        <img :src="data.images.image3" alt="toteBag" class="object-cover w-full h-full">
                     </div>
                 </div>
             </div>
@@ -78,3 +76,10 @@
     <EnquiryForm/>
     <SectionsFooter/>
 </template>
+<script setup>
+import cards from '/assets/data/references.json'
+
+var name = computed(() => { return useRoute().params.slug || 'titletwo' })
+var data = computed(() => { return cards[useRoute().params.slug] })
+
+</script>

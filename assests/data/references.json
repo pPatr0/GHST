@@ -1,0 +1,20 @@
+{
+   "titleone": {
+        "image": "/img/toteBag.png",
+        "cornerClass": "lg:rounded-tr-[10rem] rounded-tr-[7rem] lg:rounded-bl-[10rem] rounded-bl-[7rem]",
+        "title": "Title 1",
+        "cornerTitle": "top-0",
+        "theGap": "relative",
+        "images":{
+            "image1": "/img/tshirt.png"
+        }
+    },
+    "titletwo": {
+        "image": "/img/toteBag.png",
+        "cornerClass": "lg:rounded-tr-[10rem] rounded-tr-[7rem] lg:rounded-bl-[10rem] rounded-bl-[7rem]",
+        "title": "Title 2",
+        "cornerTitle": "top-0",
+        "theGap": "relative lg:top-60 md:top-0",
+        "cardFlip": "lg:scale-x-[1] md:scale-x-[-1] scale-x-[-1]"
+    }
+}
