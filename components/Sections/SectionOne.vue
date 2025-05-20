@@ -10,26 +10,31 @@
         <path d="M0 0C0 138.071 111.929 250 250 250L0 250V0Z" fill="#5F2C85" />
       </svg>
     </div>
-    <div class="bg-secondary xl:h-[47rem] lg:h-[52rem] md:h-[90rem] h-[95rem] flex items-center lg:rounded-tr-[250px] md:rounded-tr-[175px] sm:rounded-tr-[150px] rounded-tr-[100px] lg:rounded-bl-[250px] md:rounded-bl-[175px] sm:rounded-bl-[150px] rounded-bl-[100px]">
-      <div class="2xl:max-w-[1460px] xl:max-w-[1120px] lg:max-w-[875px] mx-auto w-full">
+    <div class="bg-secondary xl:h-[47rem] lg:h-[52rem] md:h-[90rem] h-[85rem] flex items-center lg:rounded-tr-[250px] md:rounded-tr-[175px] sm:rounded-tr-[150px] rounded-tr-[100px] lg:rounded-bl-[250px] md:rounded-bl-[175px] sm:rounded-bl-[150px] rounded-bl-[100px]">
+      <div class="2xl:max-w-[1460px] xl:max-w-[1120px] lg:max-w-[1020px] mx-auto w-full">
         <div class="text-center">
           <h2 class="font-sans text-4xl font-bold text-white lg:text-5xl">
             Co můžete očekávat
           </h2>
         </div>
 
-        <div class="flex flex-col items-center gap-24 pt-20 lg:grid lg:grid-cols-3">
+        <div class="flex flex-col items-center gap-20 px-2 pt-20 xl:gap-24 lg:gap-14 lg:grid lg:grid-cols-3">
           <div
             v-for="(item, index) in features"
             :key="index"
-            class="flex flex-col justify-between w-full h-[5.5rem] max-w-xs mx-auto text-left lg:max-w-md"
+            class="flex  justify-between w-full h-[5.5rem] md:max-w-md max-w-xs mx-auto text-left lg:max-w-md"
           >
-            <h3 class="text-base font-bold text-white lg:text-xl unbounded">
+            <div>
+              <h3 class="pb-4 text-base font-bold text-white lg:text-xl md:text-xl unbounded">
               {{ item.title }}
-            </h3>
-            <p class="font-serif text-base text-white lg:text-base" :class="item.maxWidth">
-              {{ item.text }}
-            </p>
+              </h3>
+              <p class="font-serif text-base text-white lg:text-base" :class="item.maxWidth">
+                {{ item.text }}
+              </p>
+            </div>
+            <div>
+              <img :src="Object.values(images[0])[index]" alt="Ikona" class="object-contain ml-4" />
+            </div>
           </div>
         </div>
       </div>
@@ -52,34 +57,45 @@
 const features = [
   {
     title: 'Vlastní design',
-    text: 'Navrhneme řešení na míru – podle vašich představ, potřeb a stylu. Originalita, která vás odliší.',
-    maxWidth: 'lg:max-w-[25rem] max-w-[25rem]',
-  },
-  {
-    title: 'Udržitelná výroba',
-    text: 'Vyrábíme s ohledem na planetu – šetrné materiály, méně odpadu a odpovědný přístup v každém kroku.',
-    maxWidth: 'lg:max-w-[25rem] max-w-[25rem]',
-  },
-  {
-    title: 'Žádná minimální objednávka',
-    text: 'Objednej přesně tolik, kolik potřebuješ – bez limitů a zbytečného skladu navíc.',
-    maxWidth: 'lg:max-w-[19rem] max-w-[19rem]',
+    text: 'Navrhujeme originální designy podle vašeho stylu a firemní identity.',
+    maxWidth: 'lg:max-w-[22rem] max-w-[22rem]',
   },
   {
     title: 'Všechno na jednom místě',
-    text: 'Od návrhu po výrobu – všechno zvládneme u nás. Ušetříš čas, energii a starosti.',
-    maxWidth: 'lg:max-w-[25rem] max-w-[25rem]',
+    text: 'Zajistíme návrh, výrobu i logistiku. Nemusíte nic řešit s více dodavateli.',
+    maxWidth: 'lg:max-w-[20rem] max-w-[20rem]',
   },
   {
-    title: 'Rychlé dodání',
-    text: 'Díky optimalizaci výroby a logistiky ti dodáme hotové produkty v krátkém čase.',
-    maxWidth: 'lg:max-w-[25rem] max-w-[25rem]',
+    title: 'Udržitelná výroba',
+    text: 'Šetrné materiály, méně odpadu a férové podmínky.',
+    maxWidth: 'lg:max-w-[22rem] max-w-[22rem]',
   },
   {
-    title: 'Podpora na každém kroku',
-    text: 'Jsme tu pro tebe – od prvního nápadu až po konečný produkt.',
-    maxWidth: 'lg:max-w-[25rem] max-w-[25rem]',
+    title: 'Flexibilita bez limitů',
+    text: 'Žádné minimální odběry. Přizpůsobíme se vašim potřebám – ať už potřebujete 5 nebo 500 kusů.',
+    maxWidth: 'lg:max-w-[24rem] max-w-[24rem]',
   },
+  {
+    title: 'Férový přístup',
+    text: 'Jsme transparentní a držíme slovo. Zakázky řešíme rychle a spolehlivě.',
+    maxWidth: 'lg:max-w-[20rem] max-w-[20rem]',
+  },
+  {
+    title: 'Kvalita, která vydrží',
+    text: 'Precizní zpracování, které zaujme. \n Váš merch bude reprezentovat vaši značku.',
+    maxWidth: 'lg:max-w-[20rem] max-w-[20rem]',
+  },
+]
+
+const images = [
+  {
+    imageOne: '/img/iconOne.png',
+    imageTwo: '/img/iconTwo.png',
+    imageThree: '/img/iconThree.png',
+    imageFour: '/img/iconFour.png',
+    imageFive: '/img/iconFive.png',
+    imageSix: '/img/iconSix.png',
+  }
 ]
 </script>
 

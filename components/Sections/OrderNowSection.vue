@@ -5,7 +5,7 @@
                 Odlište se i Vy!
             </h2>
             <p class="max-w-xs py-8 font-serif text-sm text-center text-primary lg:text-base lg:max-w-2xl md:max-w-sm">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et ex vitae nulla malesuada tempus commodo id risus. Integer vel volutpat lectus. Mauris eget felis 
+                Značka není jen logo – je to dojem, který zanecháte. <br>Pomůžeme vám vytvořit oblečení, které vystihne vaše hodnoty, kvalitu i styl.  
             </p>
             <button class="w-full px-8 py-3 text-white transition-all ease-in-out border-2 duration-400 bg-secondary border-secondary rounded-tr-2xl rounded-bl-2xl lg:w-auto hover:bg-transparent hover:text-secondary">
                 <NuxtLink to="/enquiry">Na Poptávku</NuxtLink>
