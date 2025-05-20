@@ -9,8 +9,7 @@
                     Co nabízíme
                 </h2>
                 <p class="max-w-md pt-4 pb-4 font-serif text-base lg:pt-12 md:pt-8 lg:max-w-xl lg:text-xl md:text-md lg:pb-0 md:pb-0">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas velit urna, consequat iaculis dui sagittis vel. Curabitur semper turpis a ante suscipit, in lobortis orci mollis. Maecenas quis quam nec elit porta fermentum quis a odio. Suspendisse ultricies lacus et rutrum dignissim. Aliquam quis rutrum lacus, in luctus leo. Curabitur non dui arcu. Cras id fringilla neque. Nullam leo nunc, mollis et libero quis, vulputate rutrum dolor. Sed ut libero nec ipsum blandit ultrices non id purus. Proin hendrerit mi libero, condimentum luctus ante vulputate sit amet. Suspendisse potenti. Aenean sit amet lobortis sapien.
-                </p>
+                    Nabízíme komplexní servis v oblasti brandového merche – od prvního konceptu až po hotový produkt. Pomůžeme vám navrhnout, vyrobit a doručit oblečení a doplňky, které skutečně reprezentují vaši značku. Naše řešení propojuje design, kvalitní materiály a precizní zpracování. Ať už hledáte merch pro klienty, tým, nebo limitovanou kolekci pro komunitu, jsme tu, abychom vytvořili něco, co má smysl a zanechá dojem.                </p>
             </div>
         </div>
     </div>

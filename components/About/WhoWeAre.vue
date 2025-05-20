@@ -5,9 +5,8 @@
                 <h2 class="font-sans text-3xl font-bold md:text-4xl text-primary lg:text-5xl">
                     Kdo jsme
                 </h2>
-                <p class="max-w-md pt-4 pb-4 font-serif text-base lg:pt-12 md:pt-8 lg:max-w-xl lg:text-xl md:text-md lg:pb-0 md:pb-0">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas velit urna, consequat iaculis dui sagittis vel. Curabitur semper turpis a ante suscipit, in lobortis orci mollis. Maecenas quis quam nec elit porta fermentum quis a odio. Suspendisse ultricies lacus et rutrum dignissim. Aliquam quis rutrum lacus, in luctus leo. Curabitur non dui arcu. Cras id fringilla neque. Nullam leo nunc, mollis et libero quis, vulputate rutrum dolor. Sed ut libero nec ipsum blandit ultrices non id purus. Proin hendrerit mi libero, condimentum luctus ante vulputate sit amet. Suspendisse potenti. Aenean sit amet lobortis sapien.
-                </p>
+                <p class="max-w-md pt-4 pb-4 font-serif text-base lg:pt-12 md:pt-8 lg:max-w-2xl lg:text-xl md:text-md lg:pb-0 md:pb-0">
+                    Jsme GHST – studio, které spojuje branding, design a výrobu textilu do jednoho smysluplného celku. Pomáháme značkám vyjádřit svou identitu kvalitním merchem, který funguje jako nástroj pro komunikaci i vztahy. Naše práce stojí na pečlivém řemesle, strategickém přemýšlení a férovém přístupu.                </p>
             </div>
             <div class="lg:rounded-t-[10rem] rounded-t-[4rem] lg:rounded-br-[10rem] rounded-br-[4rem] border-2 border-primary lg:max-w-[595px] lg:h-[595px] md:max-w-[400px] md:h-[350px] w-ful h-auto lg:m-4 md:m-4 m-1">
                 <img src="/img/toteBag.png" alt="ToteBag" class="lg:rounded-t-[10rem] rounded-t-[4rem] lg:rounded-br-[10rem] rounded-br-[4rem] object-cover w-full h-full">
