@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/ui": "^3.1.2",
     "@nuxtjs/google-fonts": "^3.2.0",
     "nuxt": "^3.16.2",
     "v-gsap-nuxt": "^1.4.2",
