@@ -33,7 +33,7 @@
               </p>
             </div>
             <div>
-              <img :src="Object.values(images[0])[index]" alt="Ikona" class="object-contain ml-4" />
+              <img :src="Object.values(images[0])[index]" alt="Icon" class="object-contain ml-4" />
             </div>
           </div>
         </div>
