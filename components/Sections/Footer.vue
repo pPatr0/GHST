@@ -43,10 +43,10 @@
                 </h3>
                 <div class="space-y-2 font-serif">
                     <p>
-                    +420 123 123 123
+                    +420 604 393 180
                     </p>
                     <p>
-                        obchod@ghst.cz
+                        martin.krutilek@ghosty.cz
                     </p>
                 </div>
             </div>
