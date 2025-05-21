@@ -13,7 +13,7 @@
                 <div class="pb-4 lg:pb-0">
                     <p class="pb-2 font-bold lg:pb-4 md:pb-4 text-md lg:text-2xl md:text-xl">Kontakt</p>
                     <div class="space-y-1 font-serif text-md lg:text-2xl md:text-xl">
-                        <p>+420 604 393 180</p>
+                        <p>+420 604 393 1800</p>
                         <p>martin.krutilek@ghosty.cz</p>
                     </div>
                 </div>
