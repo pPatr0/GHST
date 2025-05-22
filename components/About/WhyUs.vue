@@ -9,7 +9,7 @@
                     Věříme v partnerství, které má hloubku. Každý projekt bereme jako příležitost vytvořit něco jedinečného – s důrazem na detail, autenticitu a kvalitu. Dodáváme výsledky, které mají přesah. Umíme naslouchat, přemýšlíme strategicky a stojíme si za tím, co děláme. Díky zkušenostem s brandingem, produkcí i designem dokážeme doručit merch, který vás opravdu reprezentuje – a který si lidé rádi vezmou na sebe.                </p>
             </div>
             <div class="lg:rounded-t-[10rem] rounded-t-[4rem] lg:rounded-br-[10rem] rounded-br-[4rem] border-2 border-primary lg:max-w-[595px] lg:h-[595px] md:max-w-[400px] md:h-[350px] w-ful h-auto lg:m-4 md:m-4 m-1">
-                <img src="/img/toteBag.png" alt="ToteBag" class="lg:rounded-t-[10rem] rounded-t-[4rem] lg:rounded-br-[10rem] rounded-br-[4rem] object-cover w-full h-full">
+                <img src="/img/about/whyUsSection.jpg" alt="procMyObrazek" class="lg:rounded-t-[10rem] rounded-t-[4rem] lg:rounded-br-[10rem] rounded-br-[4rem] object-cover w-full h-full">
             </div>
         </div>
     </div>

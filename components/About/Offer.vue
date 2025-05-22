@@ -2,7 +2,7 @@
     <div class="2xl:max-w-[1460px] xl:max-w-[1120px] lg:max-w-[875px] md:max-w-[780px] max-w-[400px] mx-auto lg:-my-24 md:-my-10 -my-8 px-4">
         <div class="flex flex-col items-center lg:justify-between md:justify-between lg:flex-row md:flex-row">
             <div class="lg:order-1 md:order-1 order-2 lg:rounded-t-[10rem] rounded-t-[4rem] lg:rounded-bl-[10rem] rounded-bl-[4rem] border-2 border-primary lg:max-w-[595px] lg:h-[595px] md:max-w-[400px] md:h-[350px] w-ful h-auto lg:m-4 md:m-4 m-1">
-                <img src="/img/toteBag.png" alt="ToteBag" class="lg:rounded-t-[10rem] rounded-t-[4rem] lg:rounded-bl-[10rem] rounded-bl-[4rem] object-cover w-full h-full">
+                <img src="/img/about/offerSection.jpg" alt="coNabizimeObrazek" class="lg:rounded-t-[10rem] rounded-t-[4rem] lg:rounded-bl-[10rem] rounded-bl-[4rem] object-cover w-full h-full">
             </div>
             <div class="flex flex-col order-1 lg:order-2 md:order-2">
                 <h2 class="font-sans text-3xl font-bold md:text-4xl text-primary lg:text-5xl">
