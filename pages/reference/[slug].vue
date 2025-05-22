@@ -1,7 +1,12 @@
 <template>
     <SectionsNavbar/>
     <ReferenceTitleReference/>
-    <div class="lg:max-w-[1400px] md:max-w-[700px] max-w-[375px] mx-auto lg:space-y-6 space-y-4">
+    <div class="lg:max-w-[1400px] md:max-w-[700px] max-w-[375px] mx-auto lg:space-y-6 space-y-4 lg:-mt-32 md:-mt-24 -mt-2">
+        <div class="flex justify-center pb-12 lg:pb-24">
+            <button class="w-auto px-12 py-2 transition-all ease-in-out border-2 lg:py-3 md:py-3 lg:text-base md:text-base text-md lg:px-16 md:px-16 border-primary rounded-tl-2xl rounded-br-2xl text-primary hover:bg-primary hover:text-white">
+                <NuxtLink to="/reference">Prohledat vše</NuxtLink>
+            </button>
+        </div>
         <div class="flex flex-col px-4 space-x-0 lg:space-x-6 lg:flex-row">
             <div
                 class="border-primary lg:border-2 md:border-2 border-[1px]  overflow-hidden lg:w-1/2 w-full xl:h-[720px] lg:h-[640px]
