@@ -11,7 +11,7 @@
                 <p class="max-w-md pt-4 pb-4 font-serif text-base lg:pt-12 md:pt-8 lg:max-w-xl lg:text-xl md:text-md lg:pb-0 md:pb-0">
                     Stačí nás kontaktovat a o zbytek už se postaráme. Nabízíme spolehlivý servis od vytvoření jedinečného designu až po doručení hotových produktů na Vaši adresu.<br><br>Začít můžete ted’ hned! Zjistite jak probíhá spolupráce nebo nás kontaktujte.                
                 </p>
-                <div class="flex flex-col w-full gap-2 pt-20 text-xs font-bold lg:flex-row lg:gap-5 unbounded lg:text-base lg:w-full">
+                <div class="flex flex-col w-full gap-2 pt-8 pb-8 text-xs font-bold lg:pt-20 md:pt-8 lg:flex-row lg:gap-5 unbounded lg:text-base lg:w-full">
                     <button class="w-full px-8 py-3 text-white transition-all ease-in-out border-2 bg-secondary border-secondary rounded-tr-2xl rounded-bl-2xl lg:w-auto hover:bg-transparent hover:text-secondary">
                         <NuxtLink to="/enquiry">Na Poptávku</NuxtLink>
                     </button>
