@@ -13,7 +13,7 @@
         class="relative border-primary border-2 overflow-hidden w-full max-w-[300px] md:max-w-[350px] lg:max-w-[400px] xl:max-w-[472px] h-[300px] md:h-[350px] lg:h-[400px] xl:h-[472px]"
         :class="[item.cornerClass, item.order]"
       >
-        <img :src="item.image" alt="toteBag" class="object-cover w-full h-full" />
+        <img :src="item.image" alt="taska" class="object-cover w-full h-full" />
         <svg
           class="absolute top-10 right-10 z-10 w-[30px] h-[30px] md:w-[35px] md:h-[35px] lg:w-[40px] lg:h-[40px] lg:top-16 lg:right-16 xl:w-[40px] xl:h-[40px]"
           viewBox="0 0 40 40"

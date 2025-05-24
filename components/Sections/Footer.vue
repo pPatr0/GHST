@@ -20,7 +20,7 @@
         <div class="flex flex-col justify-between space-y-10 lg:flex-row lg:space-y-0">
             <div>
                 <div>
-                    <img src="/img/ghstLogoFlower.png" alt="ghstLogoFlower" class="lg:w-[80%] w-full">
+                    <img src="/img/ghstLogoFlower.png" alt="ghstLogoKytka" class="lg:w-[80%] w-full">
                 </div>
                 <p class="pt-2 font-serif text-xl lg:text-2xl lg:pt-8">
                     Oblečení na zakázku pro firmy, které dbají na styl

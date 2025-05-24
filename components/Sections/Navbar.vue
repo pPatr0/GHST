@@ -10,12 +10,12 @@ const showMobileMenu = ref(false)
     <div class="py-6 border-b-2 border-primary">
       <div class="lg:max-w-[1700px] md:max-w-[780px] max-w-[400px] mx-auto lg:px-0 md:px-0 px-4">
         <div class="flex items-center justify-between">
-          <div class="font-sans text-4xl font-bold w-1/4">
+          <div class="w-1/4 font-sans text-4xl font-bold">
             <NuxtLink to="/">
-              <img src="/img/ghstLogo.png" alt="ghstLogo" class="lg:w-2/3 md:w-2/3 w-full h-auto"/>
+              <img src="/img/ghstLogo.png" alt="ghstLogo" class="w-full h-auto lg:w-2/3 md:w-2/3"/>
             </NuxtLink>
           </div>
-          <div class="hidden space-x-24 lg:flex w-full justify-center">
+          <div class="justify-center hidden w-full space-x-24 lg:flex">
             <NuxtLink
               to="/reference"
               :class="[$route.path === '/reference' ? 'text-secondary' : 'text-primary', 'hover:text-secondary transition']"
@@ -41,7 +41,7 @@ const showMobileMenu = ref(false)
               Kontakt
             </NuxtLink>
           </div>
-          <div class="flex items-center w-1/4 justify-end ">
+          <div class="flex items-center justify-end w-1/4 ">
             <div class="flex mr-2 lg:hidden">
               <button @click="showMobileMenu = !showMobileMenu">
                 <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#12170F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">

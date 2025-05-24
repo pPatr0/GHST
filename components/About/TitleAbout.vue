@@ -4,7 +4,7 @@
             <div class="lg:max-w-[1460px] mx-auto">
                 <div class="flex items-center justify-between px-0 xl:px-2">
                     <div class="flex justify-center">
-                        <img src="/img/about/flowerLeftAbout.svg" alt="FlowersLeftSide" class="w-3/4 lg:w-3/4 md:w-3/4 xl:w-full">
+                        <img src="/img/about/flowerLeftAbout.svg" alt="kvetinyLevaStrana" class="w-3/4 lg:w-3/4 md:w-3/4 xl:w-full">
                     </div>
                     <div class="flex justify-center w-full min-w-[90px]">
                         <h1 class="font-sans text-2xl font-bold text-white lg:text-7xl md:text-4xl">
@@ -12,7 +12,7 @@
                         </h1>
                     </div>
                     <div class="flex justify-center">
-                        <img src="/img/about/flowerRightAbout.svg" alt="FlowersRightSide" class="w-3/4 lg:w-3/4 md:w-3/4 xl:w-full">
+                        <img src="/img/about/flowerRightAbout.svg" alt="kvetinyPravaStrana" class="w-3/4 lg:w-3/4 md:w-3/4 xl:w-full">
                     </div>
                 </div>
             </div>
