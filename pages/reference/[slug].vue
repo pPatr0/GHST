@@ -38,35 +38,35 @@
 
         <div class="grid grid-cols-2 gap-4 px-4 lg:gap-6 lg:grid-cols-4">
             <div class=" border-primary lg:border-2 md:border-2 border-[1px] overflow-hidden w-auto xl:h-[348px] lg:h-[288px] md:h-[300px] h-[150px] lg:rounded-tl-[7rem] md:rounded-tl-[6rem] rounded-tl-[3rem] lg:rounded-br-[7rem] md:rounded-br-[6rem] rounded-br-[3rem] lg:order-1 order-1">
-                <img src="/img/toteBag.png" alt="rename" class="object-cover w-full h-full">
+                <img :src="data.images.image4" alt="rename" class="object-cover w-full h-full">
             </div>
             <div class="relative border-primary lg:border-2 md:border-2 border-[1px] overflow-hidden w-auto xl:h-[348px] lg:h-[288px] md:h-[300px] h-[150px] lg:rounded-tr-[7rem] md:rounded-tr-[6rem] rounded-tr-[3rem] lg:rounded-bl-[7rem] md:rounded-bl-[6rem] rounded-bl-[3rem] lg:order-2 order-2">
-                <img src="/img/toteBag.png" alt="rename" class="object-cover w-full h-full">
+                <img :src="data.images.image5" alt="rename" class="object-cover w-full h-full">
             </div>
             <div class=" border-primary lg:border-2 md:border-2 border-[1px] overflow-hidden w-auto xl:h-[348px] lg:h-[288px] md:h-[300px] h-[150px] lg:rounded-tl-[7rem] md:rounded-tl-[6rem] rounded-tl-[3rem] lg:rounded-br-[7rem] md:rounded-br-[6rem] rounded-br-[3rem] lg:order-3 order-4">
-                <img src="/img/toteBag.png" alt="rename" class="object-cover w-full h-full">
+                <img :src="data.images.image6" alt="rename" class="object-cover w-full h-full">
             </div>
             <div class="relative border-primary lg:border-2 md:border-2 border-[1px] overflow-hidden w-auto xl:h-[348px] lg:h-[288px] md:h-[300px] h-[150px] lg:rounded-tr-[7rem] md:rounded-tr-[6rem] rounded-tr-[3rem] lg:rounded-bl-[7rem] md:rounded-bl-[6rem] rounded-bl-[3rem] lg:order-4 order-3">
-                <img src="/img/toteBag.png" alt="rename" class="object-cover w-full h-full">
+                <img :src="data.images.image7" alt="rename" class="object-cover w-full h-full">
             </div>
         </div>
 
         <div class="flex flex-col gap-4 px-4 lg:gap-6 lg:flex-row">
             <div class="flex flex-col justify-between order-2 w-full gap-4 lg:w-1/2 lg:order-1 lg:gap-0">
                 <div class="flex pt-0 space-x-4 lg:space-x-6 lg:pt-0">
-                    <div class=" border-primary lg:border-2 md:border-2 border-[1px] overflow-hidden w-auto xl:h-[348px] lg:h-[288px]  md:h-[300px] h-[150px] lg:rounded-tr-[7rem] md:rounded-tr-[6rem] rounded-tr-[3rem] lg:rounded-bl-[7rem] md:rounded-bl-[6rem] rounded-bl-[3rem]">
-                        <img src="/img/toteBag.png" alt="rename" class="object-cover w-full h-full">
+                    <div class=" border-primary lg:border-2 md:border-2 border-[1px] overflow-hidden w-full xl:h-[348px] lg:h-[288px]  md:h-[300px] h-[150px] lg:rounded-tr-[7rem] md:rounded-tr-[6rem] rounded-tr-[3rem] lg:rounded-bl-[7rem] md:rounded-bl-[6rem] rounded-bl-[3rem]">
+                        <img :src="data.images.image8" alt="rename" class="object-cover w-full h-full">
                     </div>
-                    <div class="relative border-primary lg:border-2 md:border-2 border-[1px] overflow-hidden w-auto xl:h-[348px] lg:h-[288px]  md:h-[300px] h-[150px] lg:rounded-tl-[7rem] md:rounded-tl-[6rem] rounded-tl-[3rem] lg:rounded-br-[7rem] md:rounded-br-[6rem] rounded-br-[3rem]" >
-                        <img src="/img/toteBag.png" alt="rename" class="object-cover w-full h-full">
+                    <div class="relative border-primary lg:border-2 md:border-2 border-[1px] overflow-hidden w-full xl:h-[348px] lg:h-[288px]  md:h-[300px] h-[150px] lg:rounded-tl-[7rem] md:rounded-tl-[6rem] rounded-tl-[3rem] lg:rounded-br-[7rem] md:rounded-br-[6rem] rounded-br-[3rem]" >
+                        <img :src="data.images.image9" alt="rename" class="object-cover w-full h-full">
                     </div>
                 </div>
                 <div class="flex pt-0 space-x-4 lg:space-x-6 lg:pt-0">
-                    <div class="relative border-primary lg:border-2 md:border-2 border-[1px] overflow-hidden w-auto xl:h-[348px] lg:h-[288px]  md:h-[300px] h-[150px] lg:rounded-tl-[7rem] md:rounded-tl-[6rem] rounded-tl-[3rem] lg:rounded-br-[7rem] md:rounded-br-[6rem] rounded-br-[3rem]" >
-                        <img src="/img/toteBag.png" alt="rename" class="object-cover w-full h-full">
+                    <div class="relative border-primary lg:border-2 md:border-2 border-[1px] overflow-hidden w-full xl:h-[348px] lg:h-[288px]  md:h-[300px] h-[150px] lg:rounded-tl-[7rem] md:rounded-tl-[6rem] rounded-tl-[3rem] lg:rounded-br-[7rem] md:rounded-br-[6rem] rounded-br-[3rem]" >
+                        <img :src="data.images.image10" alt="rename" class="object-cover w-full h-full">
                     </div>
-                    <div class=" border-primary lg:border-2 md:border-2 border-[1px] overflow-hidden w-auto xl:h-[348px] lg:h-[288px]  md:h-[300px] h-[150px] lg:rounded-tr-[7rem] md:rounded-tr-[6rem] rounded-tr-[3rem] lg:rounded-bl-[7rem] md:rounded-bl-[6rem] rounded-bl-[3rem]">
-                        <img src="/img/toteBag.png" alt="rename" class="object-cover w-full h-full">
+                    <div class=" border-primary lg:border-2 md:border-2 border-[1px] overflow-hidden w-full xl:h-[348px] lg:h-[288px]  md:h-[300px] h-[150px] lg:rounded-tr-[7rem] md:rounded-tr-[6rem] rounded-tr-[3rem] lg:rounded-bl-[7rem] md:rounded-bl-[6rem] rounded-bl-[3rem]">
+                        <img :src="data.images.image11" alt="rename" class="object-cover w-full h-full">
                     </div>
                 </div>
             </div>
@@ -74,7 +74,7 @@
                 class="border-primary lg:border-2 md:border-2 border-[1px] overflow-hidden lg:w-1/2 w-full xl:h-[720px] lg:h-[640px] lg:order-2 order-1
                 md:h-[400px] h-[240px] lg:rounded-tl-[10rem] md:rounded-tl-[6rem] rounded-tl-[3rem] lg:rounded-br-[10rem] md:rounded-br-[6rem] rounded-br-[3rem]"
                 >
-                <img src="/img/toteBag.png" alt="rename" class="object-cover w-full h-full">
+                <img :src="data.images.image12" alt="rename" class="object-cover w-full h-full">
             </div>
         </div>
     </div>
