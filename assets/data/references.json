@@ -1,22 +1,24 @@
 {
   "titleone": {
-    "image": "/img/toteBag.png",
+    "image": "/img/reference/ghostyTricko.jpg",
     "cornerClass": "lg:rounded-tr-[10rem] rounded-tr-[7rem] lg:rounded-bl-[10rem] rounded-bl-[7rem]",
-    "title": "Title 1",
+    "title": "Ghosty",
     "cornerTitle": "top-0",
+    "padding": "p-0",
     "theGap": "relative",
     "images": {
-      "image1": "/img/tshirt.png",
+      "image1": "/img/reference/ghostyTrickoCloseup.png",
       "image2": "/img/tshirt.png",
       "image3": "/img/tshirt.png"
     },
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum tortor eget pretium auctor. Duis eu neque vitae mauris pulvinar laoreet sed a nisi. Phasellus bibendum quis lacus ac lobortis. Suspendisse potenti. Praesent sollicitudin, velit sit amet malesuada tempus, arcu elit sodales magna, eu commodo felis eros vitae nisi. Nullam id elit ac lectus pretium maximus. Curabitur at volutpat eros, sed bibendum lacus.\nPellentesque varius odio a quam lobortis elementum. Fusce posuere mi ut metus sollicitudin ullamcorper. Duis eget purus eget massa molestie malesuada sit amet vel dui. Quisque commodo ex et ultrices vestibulum. Nullam eget est eu ligula aliquet finibus. Morbi ac ullamcorper sapien, id sagittis mauris."
   },
   "titletwo": {
-    "image": "/img/toteBag.png",
+    "image": "/img/reference/ghostyTricko2.jpg",
     "cornerClass": "lg:rounded-tr-[10rem] rounded-tr-[7rem] lg:rounded-bl-[10rem] rounded-bl-[7rem]",
-    "title": "Title 1",
+    "title": "Ghosty",
     "cornerTitle": "top-0",
+    "padding": "p-0",
     "theGap": "relative lg:top-60 md:top-0",
     "cardFlip": "lg:scale-x-[1] md:scale-x-[-1] scale-x-[-1]",
     "images": {
@@ -27,10 +29,11 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum tortor eget pretium auctor. Duis eu neque vitae mauris pulvinar laoreet sed a nisi. Phasellus bibendum quis lacus ac lobortis. Suspendisse potenti. Praesent sollicitudin, velit sit amet malesuada tempus, arcu elit sodales magna, eu commodo felis eros vitae nisi. Nullam id elit ac lectus pretium maximus. Curabitur at volutpat eros, sed bibendum lacus.\nPellentesque varius odio a quam lobortis elementum. Fusce posuere mi ut metus sollicitudin ullamcorper. Duis eget purus eget massa molestie malesuada sit amet vel dui. Quisque commodo ex et ultrices vestibulum. Nullam eget est eu ligula aliquet finibus. Morbi ac ullamcorper sapien, id sagittis mauris."
   },
   "titlethree": {
-    "image": "/img/toteBag.png",
+    "image": "/img/reference/ghostyMikina.jpg",
     "cornerClass": "lg:rounded-tl-[10rem] rounded-tl-[7rem] lg:rounded-br-[10rem] rounded-br-[7rem]",
-    "title": "Title 3",
+    "title": "Ghosty",
     "cornerTitle": "top-0 right-0",
+    "padding": "p-0",
     "theGap": "relative",
     "cardFlip": "lg:scale-x-[1] md:scale-x-[1] scale-x-[-1]",
     "images": {
@@ -41,10 +44,11 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum tortor eget pretium auctor. Duis eu neque vitae mauris pulvinar laoreet sed a nisi. Phasellus bibendum quis lacus ac lobortis. Suspendisse potenti. Praesent sollicitudin, velit sit amet malesuada tempus, arcu elit sodales magna, eu commodo felis eros vitae nisi. Nullam id elit ac lectus pretium maximus. Curabitur at volutpat eros, sed bibendum lacus.\nPellentesque varius odio a quam lobortis elementum. Fusce posuere mi ut metus sollicitudin ullamcorper. Duis eget purus eget massa molestie malesuada sit amet vel dui. Quisque commodo ex et ultrices vestibulum. Nullam eget est eu ligula aliquet finibus. Morbi ac ullamcorper sapien, id sagittis mauris."
   },
   "titlefour": {
-    "image": "/img/toteBag.png",
+    "image": "/img/reference/ghostyMikina2.jpg",
     "cornerClass": "lg:rounded-tl-[10rem] rounded-tl-[7rem] lg:rounded-br-[10rem] rounded-br-[7rem]",
-    "title": "Title 4",
+    "title": "Ghosty",
     "cornerTitle": "top-0 right-0",
+    "padding": "p-0",
     "theGap": "relative",
     "cardFlip": "lg:scale-x-[1] md:scale-x-[-1] scale-x-[1]",
     "images": {
@@ -55,10 +59,11 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum tortor eget pretium auctor. Duis eu neque vitae mauris pulvinar laoreet sed a nisi. Phasellus bibendum quis lacus ac lobortis. Suspendisse potenti. Praesent sollicitudin, velit sit amet malesuada tempus, arcu elit sodales magna, eu commodo felis eros vitae nisi. Nullam id elit ac lectus pretium maximus. Curabitur at volutpat eros, sed bibendum lacus.\nPellentesque varius odio a quam lobortis elementum. Fusce posuere mi ut metus sollicitudin ullamcorper. Duis eget purus eget massa molestie malesuada sit amet vel dui. Quisque commodo ex et ultrices vestibulum. Nullam eget est eu ligula aliquet finibus. Morbi ac ullamcorper sapien, id sagittis mauris."
   },
   "titlefive": {
-    "image": "/img/toteBag.png",
-    "cornerClass": "lg:rounded-tl-[10rem] rounded-tl-[7rem] lg:rounded-br-[10rem] rounded-br-[7rem]",
-    "title": "Title 5",
+    "image": "/img/reference/ghostyTrickoCloseup.png",
+    "cornerClass": "lg:rounded-tl-[10rem] rounded-tl-[7rem] lg:rounded-br-[10rem] rounded-br-[7rem] text-white",
+    "title": "Ghosty",
     "cornerTitle": "top-0 right-0",
+    "padding": "p-0",
     "theGap": "relative lg:top-60 md:top-0",
     "cardFlip": "lg:scale-x-[1] md:scale-x-[-1] scale-x-[-1]",
     "images": {
@@ -69,10 +74,11 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum tortor eget pretium auctor. Duis eu neque vitae mauris pulvinar laoreet sed a nisi. Phasellus bibendum quis lacus ac lobortis. Suspendisse potenti. Praesent sollicitudin, velit sit amet malesuada tempus, arcu elit sodales magna, eu commodo felis eros vitae nisi. Nullam id elit ac lectus pretium maximus. Curabitur at volutpat eros, sed bibendum lacus.\nPellentesque varius odio a quam lobortis elementum. Fusce posuere mi ut metus sollicitudin ullamcorper. Duis eget purus eget massa molestie malesuada sit amet vel dui. Quisque commodo ex et ultrices vestibulum. Nullam eget est eu ligula aliquet finibus. Morbi ac ullamcorper sapien, id sagittis mauris."
   },
   "titlesix": {
-    "image": "/img/toteBag.png",
-    "cornerClass": "lg:rounded-tr-[10rem] rounded-tr-[7rem] lg:rounded-bl-[10rem] rounded-bl-[7rem]",
-    "title": "Title 6",
+    "image": "/img/reference/ghostyLogoWhite.png",
+    "cornerClass": "lg:rounded-tr-[10rem] rounded-tr-[7rem] lg:rounded-bl-[10rem] rounded-bl-[7rem] bg-black",
+    "title": "Ghosty",
     "cornerTitle": "top-0",
+    "padding": "p-8",
     "theGap": "relative lg:top-60 md:top-0",
     "cardFlip": "lg:scale-x-[1] md:scale-x-[-1] scale-x-[-1]",
     "images": {
@@ -83,10 +89,11 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum tortor eget pretium auctor. Duis eu neque vitae mauris pulvinar laoreet sed a nisi. Phasellus bibendum quis lacus ac lobortis. Suspendisse potenti. Praesent sollicitudin, velit sit amet malesuada tempus, arcu elit sodales magna, eu commodo felis eros vitae nisi. Nullam id elit ac lectus pretium maximus. Curabitur at volutpat eros, sed bibendum lacus.\nPellentesque varius odio a quam lobortis elementum. Fusce posuere mi ut metus sollicitudin ullamcorper. Duis eget purus eget massa molestie malesuada sit amet vel dui. Quisque commodo ex et ultrices vestibulum. Nullam eget est eu ligula aliquet finibus. Morbi ac ullamcorper sapien, id sagittis mauris."
   },
   "titleseven": {
-    "image": "/img/toteBag.png",
-    "cornerClass": "lg:rounded-tl-[10rem] rounded-tl-[7rem] lg:rounded-br-[10rem] rounded-br-[7rem]",
-    "title": "Title 7",
+    "image": "/img/reference/ghostyLogoCloseup.png",
+    "cornerClass": "lg:rounded-tl-[10rem] rounded-tl-[7rem] lg:rounded-br-[10rem] rounded-br-[7rem] text-white",
+    "title": "Ghosty",
     "cornerTitle": "top-0 right-0",
+    "padding": "p-0",
     "theGap": "relative lg:top-60 md:top-0",
     "cardFlip": "lg:scale-x-[1] md:scale-x-[1] scale-x-[-1]",
     "images": {
@@ -97,10 +104,11 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum tortor eget pretium auctor. Duis eu neque vitae mauris pulvinar laoreet sed a nisi. Phasellus bibendum quis lacus ac lobortis. Suspendisse potenti. Praesent sollicitudin, velit sit amet malesuada tempus, arcu elit sodales magna, eu commodo felis eros vitae nisi. Nullam id elit ac lectus pretium maximus. Curabitur at volutpat eros, sed bibendum lacus.\nPellentesque varius odio a quam lobortis elementum. Fusce posuere mi ut metus sollicitudin ullamcorper. Duis eget purus eget massa molestie malesuada sit amet vel dui. Quisque commodo ex et ultrices vestibulum. Nullam eget est eu ligula aliquet finibus. Morbi ac ullamcorper sapien, id sagittis mauris."
   },
   "titleeight": {
-    "image": "/img/toteBag.png",
-    "cornerClass": "lg:rounded-tr-[10rem] rounded-tr-[7rem] lg:rounded-bl-[10rem] rounded-bl-[7rem]",
-    "title": "Title 8",
+    "image": "/img/reference/ghostyHanger.png",
+    "cornerClass": "lg:rounded-tr-[10rem] rounded-tr-[7rem] lg:rounded-bl-[10rem] rounded-bl-[7rem] text-white",
+    "title": "Ghosty",
     "cornerTitle": "top-0",
+    "padding": "p-0",
     "theGap": "relative lg:top-60 md:top-0",
     "cardFlip": "lg:scale-x-[1] md:scale-x-[1] scale-x-[-1]",
     "images": {
@@ -111,10 +119,11 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum tortor eget pretium auctor. Duis eu neque vitae mauris pulvinar laoreet sed a nisi. Phasellus bibendum quis lacus ac lobortis. Suspendisse potenti. Praesent sollicitudin, velit sit amet malesuada tempus, arcu elit sodales magna, eu commodo felis eros vitae nisi. Nullam id elit ac lectus pretium maximus. Curabitur at volutpat eros, sed bibendum lacus.\nPellentesque varius odio a quam lobortis elementum. Fusce posuere mi ut metus sollicitudin ullamcorper. Duis eget purus eget massa molestie malesuada sit amet vel dui. Quisque commodo ex et ultrices vestibulum. Nullam eget est eu ligula aliquet finibus. Morbi ac ullamcorper sapien, id sagittis mauris."
   },
   "titlenine": {
-    "image": "/img/toteBag.png",
-    "cornerClass": "lg:rounded-tl-[10rem] rounded-tl-[7rem] lg:rounded-br-[10rem] rounded-br-[7rem]",
-    "title": "Title 9",
+    "image": "/img/reference/ghostyPrint.png",
+    "cornerClass": "lg:rounded-tl-[10rem] rounded-tl-[7rem] lg:rounded-br-[10rem] rounded-br-[7rem] text-white",
+    "title": "Ghosty",
     "cornerTitle": "top-0 right-0",
+    "padding": "p-0",
     "theGap": "relative lg:top-60 md:top-0",
     "cardFlip": "lg:scale-x-[1] md:scale-x-[-1] scale-x-[-1]",
     "images": {
@@ -125,10 +134,11 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum tortor eget pretium auctor. Duis eu neque vitae mauris pulvinar laoreet sed a nisi. Phasellus bibendum quis lacus ac lobortis. Suspendisse potenti. Praesent sollicitudin, velit sit amet malesuada tempus, arcu elit sodales magna, eu commodo felis eros vitae nisi. Nullam id elit ac lectus pretium maximus. Curabitur at volutpat eros, sed bibendum lacus.\nPellentesque varius odio a quam lobortis elementum. Fusce posuere mi ut metus sollicitudin ullamcorper. Duis eget purus eget massa molestie malesuada sit amet vel dui. Quisque commodo ex et ultrices vestibulum. Nullam eget est eu ligula aliquet finibus. Morbi ac ullamcorper sapien, id sagittis mauris."
   },
   "titleten": {
-    "image": "/img/toteBag.png",
+    "image": "/img/reference/ghostyModel2.png",
     "cornerClass": "lg:rounded-tr-[10rem] rounded-tr-[7rem] lg:rounded-bl-[10rem] rounded-bl-[7rem]",
-    "title": "Title 10",
+    "title": "Ghosty",
     "cornerTitle": "top-0",
+    "padding": "p-0",
     "theGap": "relative lg:top-60 md:top-0",
     "cardFlip": "lg:scale-x-[1] md:scale-x-[-1] scale-x-[-1]",
     "images": {
@@ -139,10 +149,11 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum tortor eget pretium auctor. Duis eu neque vitae mauris pulvinar laoreet sed a nisi. Phasellus bibendum quis lacus ac lobortis. Suspendisse potenti. Praesent sollicitudin, velit sit amet malesuada tempus, arcu elit sodales magna, eu commodo felis eros vitae nisi. Nullam id elit ac lectus pretium maximus. Curabitur at volutpat eros, sed bibendum lacus.\nPellentesque varius odio a quam lobortis elementum. Fusce posuere mi ut metus sollicitudin ullamcorper. Duis eget purus eget massa molestie malesuada sit amet vel dui. Quisque commodo ex et ultrices vestibulum. Nullam eget est eu ligula aliquet finibus. Morbi ac ullamcorper sapien, id sagittis mauris."
   },
   "titleeleven": {
-    "image": "/img/toteBag.png",
-    "cornerClass": "lg:rounded-tr-[10rem] rounded-tr-[7rem] lg:rounded-bl-[10rem] rounded-bl-[7rem]",
-    "title": "Title 11",
+    "image": "/img/reference/ghostyLogoBlack.png",
+    "cornerClass": "lg:rounded-tr-[10rem] rounded-tr-[7rem] lg:rounded-bl-[10rem] rounded-bl-[7rem] text-white",
+    "title": "Ghosty",
     "cornerTitle": "top-0",
+    "padding": "p-0",
     "theGap": "relative lg:top-[30rem] md:top-0",
     "cardFlip": "lg:scale-x-[1] md:scale-x-[-1] scale-x-[1]",
     "images": {
@@ -153,10 +164,11 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum tortor eget pretium auctor. Duis eu neque vitae mauris pulvinar laoreet sed a nisi. Phasellus bibendum quis lacus ac lobortis. Suspendisse potenti. Praesent sollicitudin, velit sit amet malesuada tempus, arcu elit sodales magna, eu commodo felis eros vitae nisi. Nullam id elit ac lectus pretium maximus. Curabitur at volutpat eros, sed bibendum lacus.\nPellentesque varius odio a quam lobortis elementum. Fusce posuere mi ut metus sollicitudin ullamcorper. Duis eget purus eget massa molestie malesuada sit amet vel dui. Quisque commodo ex et ultrices vestibulum. Nullam eget est eu ligula aliquet finibus. Morbi ac ullamcorper sapien, id sagittis mauris."
   },
   "titletwelve": {
-    "image": "/img/toteBag.png",
+    "image": "/img/reference/ghostyModel1.png",
     "cornerClass": "lg:rounded-tr-[10rem] rounded-tr-[7rem] lg:rounded-bl-[10rem] rounded-bl-[7rem]",
-    "title": "Title 12",
+    "title": "Ghosty",
     "cornerTitle": "top-0",
+    "padding": "p-0",
     "theGap": "relative lg:top-60 md:top-0",
     "cardFlip": "lg:scale-x-[1] md:scale-x-[1] scale-x-[-1]",
     "images": {

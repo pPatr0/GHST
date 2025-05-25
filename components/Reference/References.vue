@@ -10,7 +10,7 @@
                 class="relative border-primary border-2 overflow-hidden w-full max-w-[300px] md:max-w-[350px] lg:max-w-[400px] xl:max-w-[472px] h-[300px] md:h-[350px] lg:h-[400px] xl:h-[472px]"
                 :class="[item.cornerClass, item.theGap, item.cardFlip]"
                 >
-                <img :src="item.image" alt="toteBag" class="object-cover w-full h-full" :class="[item.cardFlip]"/>
+                <img :src="item.image" alt="toteBag" class="object-cover w-full h-full" :class="[item.cardFlip, item.padding]"/>
                 <div class="absolute p-4 text-base font-semibold text-center lg:text-xl md:text-xl" :class="[item.cornerTitle, item.cardFlip]">
                     <h3>
                       {{ item.title }}

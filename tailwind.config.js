@@ -28,7 +28,9 @@ module.exports = {
     'md:scale-x-[-1]',
     'md:scale-x-[1]',
     'scale-x-[-1]',
-    'scale-x-[1]'
+    'scale-x-[1]',
+    'p-8',
+    'p-0',
   ],
   theme: {
     colors: ({ colors }) => ({
