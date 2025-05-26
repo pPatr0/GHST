@@ -13,7 +13,7 @@
         class="relative border-primary border-2 overflow-hidden w-full max-w-[300px] md:max-w-[350px] lg:max-w-[400px] xl:max-w-[472px] h-[300px] md:h-[350px] lg:h-[400px] xl:h-[472px]"
         :class="[item.cornerClass, item.order]"
       >
-        <img :src="item.image" alt="taska" class="object-cover w-full h-full" />
+        <img :src="item.image" alt="reference" class="object-cover w-full h-full" />
         <svg
           class="absolute top-10 right-10 z-10 w-[30px] h-[30px] md:w-[35px] md:h-[35px] lg:w-[40px] lg:h-[40px] lg:top-16 lg:right-16 xl:w-[40px] xl:h-[40px]"
           viewBox="0 0 40 40"
@@ -44,32 +44,32 @@
 <script setup>
 const cards = [
   {
-    image: "/img/toteBag.png",
+    image: "/img/reference/detailTricko.JPG",
     cornerClass: "lg:rounded-tr-[10rem] rounded-tr-[7rem] lg:rounded-bl-[10rem] rounded-bl-[7rem]",
     order: "lg:order-none order-none md:order-1"
   },
   {
-    image: "/img/toteBag.png",
+    image: "/img/reference/ghostyTricko.jpg",
     cornerClass: "lg:rounded-tl-[10rem] rounded-tl-[7rem] lg:rounded-br-[10rem] rounded-br-[7rem]",
     order: "lg:order-none order-none md:order-2"
   },
   {
-    image: "/img/toteBag.png",
+    image: "/img/reference/ghostyMikina.jpg",
     cornerClass: "lg:rounded-tr-[10rem] rounded-tr-[7rem] lg:rounded-bl-[10rem] rounded-bl-[7rem]",
     order: "lg:order-none order-none md:order-4"
   },
   {
-    image: "/img/toteBag.png",
+    image: "/img/reference/oavmTricko.png",
     cornerClass: "lg:rounded-tl-[10rem] rounded-tl-[7rem] lg:rounded-br-[10rem] rounded-br-[7rem]",
     order: "lg:order-none order-none md:order-3"
   },
   {
-    image: "/img/toteBag.png",
+    image: "/img/reference/oavmSmiley.png",
     cornerClass: "lg:rounded-tr-[10rem] rounded-tr-[7rem] lg:rounded-bl-[10rem] rounded-bl-[7rem]",
     order: "lg:order-none order-none md:order-5"
   },
   {
-    image: "/img/toteBag.png",
+    image: "/img/reference/ghostyHanger.png",
     cornerClass: "lg:rounded-tl-[10rem] rounded-tl-[7rem] lg:rounded-br-[10rem] rounded-br-[7rem]",
     order: "lg:order-none order-none md:order-6"
   },
