@@ -16,7 +16,7 @@
                         <NuxtLink to="/enquiry">Na Poptávku</NuxtLink>
                     </button>
                     <button class="w-full px-8 py-3 transition-all ease-in-out border-2 border-primary rounded-tl-2xl rounded-br-2xl text-primary lg:w-auto hover:bg-primary hover:text-white">
-                        <NuxtLink to="/about">Zjistěte něco o nás</NuxtLink>
+                        <NuxtLink to="/contact">Kontaktujte nás</NuxtLink>
                     </button>
                 </div>
             </div>

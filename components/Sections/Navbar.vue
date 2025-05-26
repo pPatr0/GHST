@@ -5,10 +5,10 @@ const showMobileMenu = ref(false)
 </script>
 
 <template>
-  <div>
+  <div class="relative top-0 z-50 lg:sticky">
     <div class="text-white bg-rose h-[1.2rem]"></div>
-    <div class="py-6 border-b-2 border-primary">
-      <div class="lg:max-w-[1700px] md:max-w-[780px] max-w-[400px] mx-auto lg:px-0 md:px-0 px-4">
+    <div class="py-6 bg-white border-b-2 border-primary">
+      <div class="xl:max-w-[1700px] lg:max-w-[1280px] md:max-w-[780px] max-w-[400px] mx-auto xl:px-4 lg:px-4 md:px-4 px-4">
         <div class="flex items-center justify-between">
           <div class="w-1/4 font-sans text-4xl font-bold">
             <NuxtLink to="/">

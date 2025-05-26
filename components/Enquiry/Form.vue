@@ -42,13 +42,13 @@
                     <div class="pt-4">
                         <label for="message" class="block mb-2 text-base font-medium lg:text-lg md:text-lg">Zpráva</label>
                         <textarea id="message" name="message" rows="10" required placeholder="Jaká je maximální velikost tlačené plochy?"
-                                class="w-full px-4 py-2 border border-primary lg:text-xl md:text-lg text-xs lg:rounded-tr-[9rem] md:rounded-tr-[7rem] rounded-tr-[5rem] rounded-bl-[5rem] md:rounded-bl-[7rem] lg:rounded-bl-[9rem] pt-6 focus:outline-none"></textarea>
+                                class="w-full px-4 py-2 border border-primary font-serif lg:text-xl md:text-lg text-xs lg:rounded-tr-[9rem] md:rounded-tr-[7rem] rounded-tr-[5rem] rounded-bl-[5rem] md:rounded-bl-[7rem] lg:rounded-bl-[9rem] pt-6 focus:outline-none"></textarea>
                     </div>
 
                     <!-- Tlačítko -->
                     <div class="text-center">
                         <button type="submit"
-                                class="md:w-[300px] w-full px-8 py-3 text-white transition-all ease-in-out border-2 duration-400 bg-secondary border-secondary rounded-tr-2xl rounded-bl-2xl lg:w-auto hover:bg-transparent hover:text-secondary">
+                                class="md:w-[300px] w-full px-8 py-3 font-bold text-white transition-all ease-in-out border-2 duration-400 bg-secondary border-secondary rounded-tr-2xl rounded-bl-2xl lg:w-auto hover:bg-transparent hover:text-secondary">
                         Odeslat Zprávu
                         </button>
                     </div>

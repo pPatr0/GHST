@@ -18,7 +18,7 @@
               {{ (index + 1).toString().padStart(2, '0') }}<br>
               {{ step.title }}
             </h2>
-            <p class="font-serif xl:text-2xl lg:text-xl xl:leading-[3.5rem] lg:leading-[3rem] leading-[1.5rem]">
+            <p class="font-serif xl:text-xl lg:text-lg xl:leading-[3.5rem] lg:leading-[3rem] leading-[1.5rem]">
               {{ step.description }}
             </p>
           </div>

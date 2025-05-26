@@ -22,7 +22,7 @@
           <div
             v-for="(item, index) in features"
             :key="index"
-            class="flex  justify-between w-full h-[5.5rem] md:max-w-md max-w-xs mx-auto text-left lg:max-w-md"
+            class="flex  justify-between w-full h-[5.5rem] md:max-w-lg max-w-xs mx-auto text-left lg:max-w-md"
           >
             <div>
               <h3 class="pb-4 text-base font-bold text-white lg:text-xl md:text-xl unbounded">
@@ -32,8 +32,8 @@
                 {{ item.text }}
               </p>
             </div>
-            <div>
-              <img :src="Object.values(images[0])[index]" alt="Ikona" class="object-contain ml-4" />
+            <div class="ml-4">
+              <img :src="Object.values(images[0])[index]" alt="Ikona" class="object-contain w-[42px] h-[42px]" />
             </div>
           </div>
         </div>

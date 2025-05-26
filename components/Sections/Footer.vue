@@ -16,13 +16,13 @@
     </div>
 
 
-    <div class="lg:max-w-[1460px] max-w-[300px] mx-auto mt-20">
+    <div class="lg:max-w-[1460px] max-w-[300px] mx-auto lg:mt-32 mt-20 px-2">
         <div class="flex flex-col justify-between space-y-10 lg:flex-row lg:space-y-0">
-            <div>
+            <div class="max-w-xl xl:max-w-2xl lg:max-w-lg">
                 <div>
                     <img src="/img/ghstLogoFlower.png" alt="ghstLogoKytka" class="lg:w-[80%] w-full">
                 </div>
-                <p class="pt-2 font-serif text-xl lg:text-2xl lg:pt-8">
+                <p class="pt-2 font-serif text-xl xl:text-2xl lg:pt-8">
                     Oblečení na zakázku pro firmy, které dbají na styl
                 </p>
             </div>
@@ -30,11 +30,11 @@
                 <h3 class="text-lg font-bold unbounded">
                     Menu
                 </h3>
-                <div class="space-y-2 font-serif">
-                    <p>Reference</p>
-                    <p>Poptávka</p>
-                    <p>O nás</p>
-                    <p>Kontakt</p>
+                <div class="flex flex-col space-y-2 font-serif">
+                    <NuxtLink class="hover:underline" to="/reference">Reference</NuxtLink>
+                    <NuxtLink class="hover:underline" to="/enquiry">Poptávka</NuxtLink>
+                    <NuxtLink class="hover:underline" to="/about">O nás</NuxtLink>
+                    <NuxtLink class="hover:underline" to="/contact">Kontakt</NuxtLink>
                 </div>
             </div>
             <div class="space-y-2">
@@ -43,10 +43,10 @@
                 </h3>
                 <div class="space-y-2 font-serif">
                     <p>
-                    +420 604 393 180
+                        <a href="tel:+420604393180" class="hover:underline">+420 604 393 180</a>
                     </p>
                     <p>
-                        martin.krutilek@ghosty.cz
+                        <a href="mailto:martin.krutilek@ghosty.cz" class="hover:underline">martin.krutilek@ghosty.cz</a>
                     </p>
                 </div>
             </div>
