@@ -7,7 +7,7 @@
     </div>
   
     <div class="grid grid-cols-1 gap-4 px-4 mx-auto md:gap-6 lg:gap-8 md:grid-cols-2 lg:grid-cols-3 md:place-content-center md:max-w-fit">
-      <div
+      <a :href=[item.link]
         v-for="(item, index) in cards"
         :key="index"
         class="relative border-primary border-2 overflow-hidden w-full max-w-[300px] md:max-w-[350px] lg:max-w-[400px] xl:max-w-[472px] h-[300px] md:h-[350px] lg:h-[400px] xl:h-[472px]"
@@ -36,7 +36,7 @@
             stroke-linejoin="round"
           />
         </svg>
-      </div>
+      </a>
     </div>
   </div>
 </template>
@@ -46,32 +46,38 @@ const cards = [
   {
     image: "/img/reference/detailTricko.JPG",
     cornerClass: "lg:rounded-tr-[10rem] rounded-tr-[7rem] lg:rounded-bl-[10rem] rounded-bl-[7rem]",
-    order: "lg:order-none order-none md:order-1"
+    order: "lg:order-none order-none md:order-1",
+    link: "#"
   },
   {
     image: "/img/reference/ghostyTricko.jpg",
     cornerClass: "lg:rounded-tl-[10rem] rounded-tl-[7rem] lg:rounded-br-[10rem] rounded-br-[7rem]",
-    order: "lg:order-none order-none md:order-2"
+    order: "lg:order-none order-none md:order-2",
+    link: "/reference/titleone"
   },
   {
     image: "/img/reference/ghostyMikina.jpg",
     cornerClass: "lg:rounded-tr-[10rem] rounded-tr-[7rem] lg:rounded-bl-[10rem] rounded-bl-[7rem]",
-    order: "lg:order-none order-none md:order-4"
+    order: "lg:order-none order-none md:order-4",
+    link: "/reference/titleone"
   },
   {
     image: "/img/reference/oavmTricko.png",
     cornerClass: "lg:rounded-tl-[10rem] rounded-tl-[7rem] lg:rounded-br-[10rem] rounded-br-[7rem]",
-    order: "lg:order-none order-none md:order-3"
+    order: "lg:order-none order-none md:order-3",
+    link: "#"
   },
   {
     image: "/img/reference/oavmSmiley.png",
     cornerClass: "lg:rounded-tr-[10rem] rounded-tr-[7rem] lg:rounded-bl-[10rem] rounded-bl-[7rem]",
-    order: "lg:order-none order-none md:order-5"
+    order: "lg:order-none order-none md:order-5",
+    link: "#"
   },
   {
     image: "/img/reference/ghostyHanger.png",
     cornerClass: "lg:rounded-tl-[10rem] rounded-tl-[7rem] lg:rounded-br-[10rem] rounded-br-[7rem]",
-    order: "lg:order-none order-none md:order-6"
+    order: "lg:order-none order-none md:order-6",
+    link: "/reference/titleone"
   },
 ];
 </script>
